@@ -96,7 +96,7 @@ nav {
 }
 
 .nav-brand img {
-  height: 42px;
+  height: 52px;
   width: auto;
 }
 
@@ -247,7 +247,7 @@ footer {
 }
 
 .footer-brand img {
-  height: 52px;
+  height: 62px;
   margin-bottom: 14px;
 }
 
@@ -337,7 +337,7 @@ footer {
   color: rgba(255, 255, 255, 0.22);
 }
 .spybitech-badge img {
-  height: 14px;
+  height: 20px;
   width: auto;
   opacity: 0.35;
   filter: brightness(2);
@@ -2124,4 +2124,23 @@ footer {
   color: #1e3a5f;
   width: 16px;
   text-align: center;
+}
+
+.service-item-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: #e6eef8;
+  color: #1e3a5f;
+
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.service-item-icon i {
+  font-size: 18px;
 }
