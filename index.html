@@ -63,150 +63,110 @@
     <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
     <!-- Hero -->
     <section class="hero">
-      <div class="hero-left">
-        <span class="hero-eyebrow"
-          >DNEA-Registered Tutorial &amp; Examination Centre</span
-        >
-        <h1>The Bells<br />Private School</h1>
-        <p class="hero-subtitle">
-          Turning academic setbacks into success stories.
-        </p>
-        <p class="hero-desc">
-          Located in Khomasdal, Windhoek, and registered with the DNEA under the
-          Ministry of Education, we specialise in high-impact tutorials for
-          learners preparing for NSSCO examinations full-time, part-time, and
-          examination candidates alike.
-        </p>
-        <div class="hero-actions">
-          <a href="admissions.html" class="btn-gold">Apply Now</a>
-          <a
-            href="programmes.html"
-            class="btn-secondary"
-            style="
-              color: rgba(255, 255, 255, 0.85);
-              border-color: rgba(255, 255, 255, 0.4);
-            "
-            >View Programmes</a
-          >
-        </div>
+      <!-- Slideshow backgrounds (fills entire hero) -->
+      <div class="hero-slideshow">
+        <div
+          class="hero-slide active"
+          style="background-image: url(assets/images/img28.jpeg)"
+        ></div>
+        <div
+          class="hero-slide"
+          style="background-image: url(assets/images/img27.jpeg)"
+        ></div>
+        <div
+          class="hero-slide"
+          style="background-image: url(assets/images/img22.jpeg)"
+        ></div>
+        <div
+          class="hero-slide"
+          style="background-image: url(assets/images/img23.jpeg)"
+        ></div>
       </div>
-      <div class="hero-right">
-        <div class="hero-image-placeholder">
-          <div class="hero-img-graphic">
-            <svg
-              width="400"
-              height="400"
-              viewBox="0 0 400 400"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+
+      <!-- Dark overlay for readability -->
+      <div class="hero-overlay"></div>
+
+      <!-- Content sits on top of everything -->
+      <div class="hero-content">
+        <div class="hero-content-inner">
+          <div class="hero-text">
+            <span class="hero-eyebrow"
+              >DNEA-Registered Tutorial &amp; Examination Centre</span
             >
-              <rect
-                x="40"
-                y="120"
-                width="320"
-                height="220"
-                fill="white"
-                rx="4"
-              />
-              <rect
-                x="40"
-                y="100"
-                width="320"
-                height="24"
-                fill="white"
-                rx="2"
-              />
-              <rect
-                x="60"
-                y="155"
-                width="80"
-                height="60"
-                fill="#3B82F6"
-                opacity="0.4"
-                rx="2"
-              />
-              <rect
-                x="160"
-                y="155"
-                width="80"
-                height="60"
-                fill="#3B82F6"
-                opacity="0.4"
-                rx="2"
-              />
-              <rect
-                x="260"
-                y="155"
-                width="80"
-                height="60"
-                fill="#3B82F6"
-                opacity="0.4"
-                rx="2"
-              />
-              <rect
-                x="60"
-                y="230"
-                width="280"
-                height="8"
-                fill="#3B82F6"
-                opacity="0.3"
-                rx="2"
-              />
-              <rect
-                x="60"
-                y="248"
-                width="220"
-                height="8"
-                fill="#3B82F6"
-                opacity="0.2"
-                rx="2"
-              />
-              <rect
-                x="60"
-                y="266"
-                width="260"
-                height="8"
-                fill="#3B82F6"
-                opacity="0.2"
-                rx="2"
-              />
-            </svg>
-          </div>
-          <div style="text-align: center; z-index: 2; position: relative">
-            <img
-              src="assets/logo/logo.png"
-              alt="Bells Logo"
-              style="
-                height: 160px;
-                opacity: 0.85;
-                filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.4));
-              "
-            />
-            <p
-              style="
-                color: rgba(255, 255, 255, 0.5);
-                font-size: 12px;
-                margin-top: 20px;
-                letter-spacing: 0.08em;
-                text-transform: uppercase;
-              "
-            >
-              Excellence Since Establishment
+            <h1>The Bells<br />Private School</h1>
+            <p class="hero-subtitle">
+              Turning academic setbacks into success stories.
             </p>
+            <p class="hero-desc">
+              Located in Khomasdal, Windhoek, and registered with the DNEA under
+              the Ministry of Education, we specialise in high-impact tutorials
+              for learners preparing for NSSCO examinations — full-time,
+              part-time, and examination candidates alike.
+            </p>
+            <div class="hero-actions">
+              <a href="admissions.html" class="btn-gold">Apply Now</a>
+              <a
+                href="programmes.html"
+                class="btn-secondary"
+                style="
+                  color: rgba(255, 255, 255, 0.85);
+                  border-color: rgba(255, 255, 255, 0.4);
+                "
+                >View Programmes</a
+              >
+            </div>
           </div>
-          <div class="hero-stat-strip">
-            <div class="hero-stat">
-              <span class="hero-stat-num">95%</span
-              ><span class="hero-stat-label">Pass Rate</span>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-num">14</span
-              ><span class="hero-stat-label">Subjects Offered</span>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-num">NSSCO</span
-              ><span class="hero-stat-label">Accredited</span>
-            </div>
+        </div>
+
+        <!-- Slide controls -->
+        <button class="slide-arrow slide-prev" aria-label="Previous slide">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+        </button>
+        <button class="slide-arrow slide-next" aria-label="Next slide">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </button>
+        <div class="slide-dots">
+          <button class="slide-dot active" aria-label="Slide 1"></button>
+          <button class="slide-dot" aria-label="Slide 2"></button>
+          <button class="slide-dot" aria-label="Slide 3"></button>
+          <button class="slide-dot" aria-label="Slide 4"></button>
+        </div>
+
+        <!-- Stats strip at bottom -->
+        <div class="hero-stat-strip">
+          <div class="hero-stat">
+            <span class="hero-stat-num">95%</span
+            ><span class="hero-stat-label">Pass Rate</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">14</span
+            ><span class="hero-stat-label">Subjects Offered</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">DNEA</span
+            ><span class="hero-stat-label">Accredited</span>
           </div>
         </div>
       </div>
@@ -268,7 +228,6 @@
         </div>
       </div>
     </div>
-
     <!-- About Preview -->
     <section class="about-preview">
       <div class="about-preview-inner">
