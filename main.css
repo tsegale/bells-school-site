@@ -1733,9 +1733,6 @@ footer {
   .hero h1 {
     font-size: 40px;
   }
-  .hero-left {
-    padding: 56px 40px;
-  }
   .footer-grid {
     grid-template-columns: 1fr 1fr;
     gap: 32px;
