@@ -96,7 +96,7 @@ nav {
 }
 
 .nav-brand img {
-  height: 52px;
+  height: 58px;
   width: auto;
 }
 
@@ -247,7 +247,7 @@ footer {
 }
 
 .footer-brand img {
-  height: 62px;
+  height: 72px;
   margin-bottom: 14px;
 }
 
@@ -1895,19 +1895,23 @@ footer {
   }
 
   .slide-arrow {
+    display: none;
     width: 40px;
     height: 40px;
     margin-bottom: 80px;
   }
   .slide-prev {
+    display: none;
     left: 12px;
   }
   .slide-next {
+    display: none;
     right: 12px;
   }
 
   .slide-dots {
     bottom: 82px;
+    display: none;
   }
 
   .hero-stat-strip {
@@ -2257,6 +2261,18 @@ footer {
   .accred-item svg {
     display: none;
   }
+
+  .slide-arrow {
+    display: none;
+  }
+
+  .slide-prev {
+    display: none;
+  }
+
+  .slide-next {
+    display: none;
+  }
 }
 
 .value-cell-icon {
@@ -2302,4 +2318,28 @@ footer {
 
 .service-item-icon i {
   font-size: 18px;
+}
+
+.gov-strip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  text-align: center;
+  background: #f8fafc;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.gov-strip img {
+  height: 60px;
+  width: auto;
+  opacity: 0.9;
+}
+
+.gov-strip p {
+  margin-bottom: 12px;
+  color: #374151;
+  font-size: 14px;
+  letter-spacing: 0.5px;
 }
